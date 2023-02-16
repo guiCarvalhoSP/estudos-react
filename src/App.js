@@ -1,6 +1,7 @@
 import './App.css';
 
 import City from './assets/city.jpg'
+import CarDetails from './components/CarDetails';
 import ConditionalRender from './components/ConditionalRender';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
@@ -24,6 +25,7 @@ function App() {
       <ListRender />
       <ConditionalRender />
       <ShowUserName name={name} />
+      <CarDetails brand='Marca' km={1000} color='Preto'/>
     </div>
   );
 }
